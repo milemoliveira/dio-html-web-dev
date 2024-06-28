@@ -1,0 +1,181 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+.principal {
+    display: flex;
+    align-items: stretch;
+    background-color: #e6e6e6;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu {
+    width: 15%;
+    background-color: #0d747780;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+li a:hover {
+    background-color: #358a8dab;
+    color: white;
+}
+
+#logolateral {
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.main {
+    width: 85%;
+}
+
+.header {
+    padding: 1%;
+    height: 12%;
+    background-color: D9D9D9;
+}
+
+#logoprincipal {
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.content {
+    height: 76%;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#txtprincipal {
+    color: #285C5D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    padding: 30px;
+    text-align: justify;
+}
+
+#imgcentral {
+    padding: 3%;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+.txtsobre {
+    text-align: justify;
+    font-size: 15px;
+    padding: 30px;
+    color: #285C5D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.txthorarios {
+    text-align: justify;
+    color: #285C5D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer {
+    color: #285C5D;
+    background-color: D9D9D9;
+    text-align: center;
+    padding: 1%;
+}
+
+table {
+    width: 100%;
+    color: #285C5D;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #6ca9aa ;
+    text-align: center;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    vertical-align: middle;
+    height: 15px;
+    background-color: #f2f2f2;
+}
+
+#titulohorarios {
+    text-align: center;
+}
+
+.content h2 {
+    color: #285C5D;
+}
+
+.contato {
+    color: #285C5D;
+    padding: 5%;
+}
+
+
+form {
+    display: flex;
+    display: inline-block;
+    color: #285C5D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label {
+    padding-top: 5%;
+}
+
+input {
+    margin-bottom: 6%;
+    padding: 3%;
+    border: 1px solid #285c5d80;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+button[type=submit] {
+    width: 49%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=reset] {
+    width: 49%;
+    background-color: #727272;
+    color: white;
+    padding: 14px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
